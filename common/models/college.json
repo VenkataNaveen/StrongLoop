@@ -1,0 +1,25 @@
+{
+  "name": "college",
+  "base": "Model",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "collegename": {
+      "type": "string"
+    },
+    "collegeadress": {
+      "type": "string",
+      "required": true
+    },
+    "collegebranch": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

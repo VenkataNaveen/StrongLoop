@@ -1,0 +1,25 @@
+{
+    "db": {
+        "name": "db",
+        "connector": "memory"
+    },
+    "database": {
+        "host": "",
+        "port": 0,
+        "database": "",
+        "password": "",
+        "name": "database",
+        "user": "",
+        "connector": "mysql"
+    },
+
+    "mysqldb": {
+        "host": "demo.strongloop.com",
+        "port": 3000,
+        "database": "geting started",
+        "password": "LoopBack",
+        "name": "mysqldb",
+        "user": "demo",
+        "connector": "mysql"
+    }
+}
